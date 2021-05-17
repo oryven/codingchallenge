@@ -1,0 +1,78 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  font-family: 'Indie Flower', cursive;
+}
+.cornice {
+  background-color: black;
+  width: 850px;
+  margin: auto;
+  background-color:rgba(0,0,0,0.6);
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.logo {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  margin-bottom: -10px;
+}
+.titolo1 {
+  color: #00dd00;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: -10px;
+}
+
+.contenitorebutton {
+  background-color: #00dd00;
+  width: 700px;
+  margin:auto;
+  padding:10px;
+  text-align: center;
+}
+
+div > button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,100,0,0.5), 0 17px 50px 0 rgba(0,100,0,0.5);
+}
+
+.section {
+  color: white;
+  width: 650px;
+  margin-top: 20px ;
+  margin-left: 90px;
+}
+.titolo2 {
+  display: inline;
+}
+
+span.dettagli {
+  display: block;
+  font-size: 13px;
+}
+
+.statocarica1 {
+  background-color: #f5b453;
+  padding:10px;
+  width: 250px;
+  border-radius: 5px;
+}
+.statocarica2 {
+  background-color: #1ec31e;
+  padding:10px;
+  width: 350px;
+  border-radius: 5px;
+}
+.statocarica3 {
+  background-color: #be4141;
+  padding:10px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.none {
+  height: 50px;
+  width: 50%;
+}
